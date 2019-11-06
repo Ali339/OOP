@@ -1,0 +1,676 @@
+ALI ZAIB
+
+INITIAL CUSTOMER INFORMATION
+
+Total Number of Accounts = 11
+***-----------------------***
+F_Name		L_Name		SSN			ACCT#		Status		ACCT_Type		Balance
+****-------------------------------------------------------------------------------------------------------------------****
+
+Ali		Zaib		348754323		1111		Active		Checking       		20000.89
+John		Doe		234567776		1112		Active		Checking       		15000.99
+Jane		Gold		56434566		1113		Active		Savings       		120000.79
+Tom		Dillon		347543322		1114		Active		Checking       		234566.00
+Jill		Bush		879131244		1115		Active		Checking       		120000.00
+James		Monroe		766126666		1116		Active		Savings       		200000.00
+Zafar		Nusrat		121212111		1117		Active		C.D       		17000.00
+Moona		Noreen		121212222		1118		Active		Checking       		200.00
+Babad		Zafar		176758494		1119		Active		Savings       		560000.00
+Nusa		Jaffa		176758432		1101		Closed		C.D       		32222.00
+Phopo		Gusa		176428494		1102		Active		Savings       		300.00
+****--------------------------------------------------------------------------------------------------------------------****
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1114
+Current Balance = $234566.00
+
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 3131
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+Operation Requested  = K
+ERROR: No such choice in menu.Please try again with a valid selection.
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1119
+Transaction has been processed successfully.
+Old balance = $560000.00
+Depositing amount = $3000.00
+New balance = $563000.00
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1118
+Amount to deposit = $-76.00
+ERROR:Invalid amount.Try with a valid depositing amount, please.
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 4343
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1117
+Transaction has been processed successfully.
+Old balance = $17000.00
+Withdrawal amount = $58.89
+New balance = $16941.11
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1116
+Current Balance = 200000.00
+Withdrawal limit per day = $1000
+Withdrawal amount = $7000.00
+ERROR: Withdrawal amount is exceeding withdrawing limit.Try with a valid withdrawal amount, please.
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1115
+Current Balance = 120000.00
+Withdrawal amount = $-99.00
+ERROR: Invalid withdrawal amount.Try with a valid withdrawal amount, please.
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 5464
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  121212111
+The information related to the entered SSN is as follow: 
+First name: Zafar
+Last name: Nusrat
+Account type: C.D
+Account#: 1117
+Account balance: 16941.11
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  879131244
+The information related to the entered SSN is as follow: 
+First name: Jill
+Last name: Bush
+Account type: Checking
+Account#: 1115
+Account balance: 120000.00
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  686392837
+ERROR: Entered SSN does not exist.Try with a valid SSN, please.
+
+	***--------------------------***
+
+
+Operation requested is Creating new Account.
+Account Number = 1115
+ERROR: Account already exist.Try with another account number, please.
+
+	***--------------------------***
+
+
+Operation requested is Creating new Account.
+Account Number = 1120
+Congrats new account has been set up for MR. Joseph
+
+	***--------------------------***
+
+
+Operation requested is deleting an Account.
+Account Number = 1111
+1111  Account has been deleted successfully.
+
+	***--------------------------***
+
+
+Operation requested is deleting an Account.
+Account Number = 8976
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1120
+Transaction has been processed successfully.
+Old balance = $3000.00
+Depositing amount = $4569.89
+New balance = $7569.89
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1120
+Transaction has been processed successfully.
+Old balance = $7569.89
+Withdrawal amount = $200.89
+New balance = $7369.00
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  678976543
+The information related to the entered SSN is as follow: 
+First name: Charlie
+Last name: Joseph
+Account type: Checking
+Account#: 1120
+Account balance: 7369.00
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1119
+Transaction has been processed successfully.
+Old balance = $563000.00
+Depositing amount = $2000.00
+New balance = $565000.00
+
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1120
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 5656
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+
+Operation requested is deleting an Account.
+Account Number = 1102
+1102  Account has been deleted successfully.
+
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1114
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1115
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1115
+ERROR: No transaction can be done, Account is closed 
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  347543322
+ERROR: No transaction can be done, Account is closed 
+
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 2312
+ERROR: Account Number does not exist.Try with a valid account number, please.
+
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1117
+ERROR: Account is already Active
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1120
+Account has been Re-opened
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1120
+Current Balance = $7369.00
+
+	***--------------------------***
+
+
+Operation requested is Account_Info .
+Entered SSN =  678976543
+The information related to the entered SSN is as follow: 
+First name: Charlie
+Last name: Joseph
+Account type: Checking
+Account#: 1120
+Account balance: 7369.00
+
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1115
+ERROR: No transaction can be done, Account is closed 
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1114
+ERROR: No transaction can be done, Account is closed 
+
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1120
+Transaction has been processed successfully.
+Old balance = $7369.00
+Withdrawal amount = $24.90
+New balance = $7344.10
+
+	***--------------------------***
+
+
+Operation requested is Account_Info with Transaction history .
+Entered SSN =  678976543
+The information related to the entered SSN is as follow: 
+First name: Charlie
+Last name: Joseph
+Account type: Checking
+Account#: 1120
+Account balance: 7344.10
+
+TRANSACTION HISTORY FOR THE ACCOUNT 
+
+Total Transactions = 9
+Transaction # 1:
+Transaction type = New Acct opening
+Transaction amount = 3000.00
+
+Transaction # 2:
+Transaction type = Deposit
+Transaction amount = 4569.89
+
+Transaction # 3:
+Transaction type = Withdrawal
+Transaction amount = 200.89
+
+Transaction # 4:
+Transaction type = Acct_Info W/O Trans history
+Transaction amount = N/A
+
+Transaction # 5:
+Transaction type = Closing the account
+Transaction amount = N/A
+
+Transaction # 6:
+Transaction type = Re-opening the account
+Transaction amount = N/A
+
+Transaction # 7:
+Transaction type = Balance inquiry
+Transaction amount = N/A
+
+Transaction # 8:
+Transaction type = Acct_Info W/O Trans history
+Transaction amount = N/A
+
+Transaction # 9:
+Transaction type = Withdrawal
+Transaction amount = 24.90
+
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1112
+Current Balance = $15000.99
+
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1112
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1112
+ERROR: No transaction can be done, Account is closed 
+
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1112
+Account has been Re-opened
+	***--------------------------***
+
+
+Operation requested is Deposit.
+Account Number = 1112
+Transaction has been processed successfully.
+Old balance = $15000.99
+Depositing amount = $200.99
+New balance = $15201.98
+
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1112
+ERROR: Account is already Active
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1113
+Current Balance = $120000.79
+
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1113
+ERROR: Account is already Active
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1113
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1118
+Transaction has been processed successfully.
+Old balance = $200.00
+Withdrawal amount = $120.99
+New balance = $79.01
+
+	***--------------------------***
+
+
+Operation requested is Account_Info with Transaction history .
+Entered SSN =  121212222
+The information related to the entered SSN is as follow: 
+First name: Moona
+Last name: Noreen
+Account type: Checking
+Account#: 1118
+Account balance: 79.01
+
+TRANSACTION HISTORY FOR THE ACCOUNT 
+
+Total Transactions = 2
+Transaction # 1:
+Transaction type = Opening of the account
+Transaction amount = 200.00
+
+Transaction # 2:
+Transaction type = Withdrawal
+Transaction amount = 120.99
+
+	***--------------------------***
+
+
+Operation requested is Balance Inquiry.
+Account Number = 1116
+Current Balance = $200000.00
+
+	***--------------------------***
+
+
+Operation requested is Closing the Account.
+Account Number = 1116
+Account has been closed successfully 
+	***--------------------------***
+
+
+Operation requested is Re-opening the closed Account.
+Account Number = 1116
+Account has been Re-opened
+	***--------------------------***
+
+
+Operation requested is Withdrawal
+Account Number = 1116
+Transaction has been processed successfully.
+Old balance = $200000.00
+Withdrawal amount = $344.00
+New balance = $199656.00
+
+	***--------------------------***
+
+
+CLOSING CUSTOMER INFORMATION
+
+Total Number of Accounts = 10
+***-----------------------***
+F_Name		L_Name		SSN			ACCT#		Status		ACCT_Type		Balance
+****-------------------------------------------------------------------------------------------------------------------****
+
+Charlie		Joseph		678976543		1120		Active		Checking       		7344.10
+John		Doe		234567776		1112		Active		Checking       		15201.98
+Jane		Gold		56434566		1113		Closed		Savings       		120000.79
+Tom		Dillon		347543322		1114		Closed		Checking       		234566.00
+Jill		Bush		879131244		1115		Closed		Checking       		120000.00
+James		Monroe		766126666		1116		Active		Savings       		199656.00
+Zafar		Nusrat		121212111		1117		Active		C.D       		16941.11
+Moona		Noreen		121212222		1118		Active		Checking       		79.01
+Babad		Zafar		176758494		1119		Active		Savings       		565000.00
+Nusa		Jaffa		176758432		1101		Closed		C.D       		32222.00
+****--------------------------------------------------------------------------------------------------------------------****
+
+
+TRANSACTION HISTORY FOR ALL THE ACCOUNTS IN DATABASE
+**Upon the creation of the account, Transaction Amountis equal to initial balance
+
+ACCOUNT# = 1120
+TOTAL TRANSACTIONS = 10
+
+TRANSACTION # 1:
+Transaction Type = New Acct opening
+Trans Amount = 3000.00
+TRANSACTION # 2:
+Transaction Type = Deposit
+Trans Amount = 4569.89
+TRANSACTION # 3:
+Transaction Type = Withdrawal
+Trans Amount = 200.89
+TRANSACTION # 4:
+Transaction Type = Acct_Info W/O Trans history
+Trans Amount = N/A
+TRANSACTION # 5:
+Transaction Type = Closing the account
+Trans Amount = N/A
+TRANSACTION # 6:
+Transaction Type = Re-opening the account
+Trans Amount = N/A
+TRANSACTION # 7:
+Transaction Type = Balance inquiry
+Trans Amount = N/A
+TRANSACTION # 8:
+Transaction Type = Acct_Info W/O Trans history
+Trans Amount = N/A
+TRANSACTION # 9:
+Transaction Type = Withdrawal
+Trans Amount = 24.90
+TRANSACTION # 10:
+Transaction Type = Acct_Info W Trans history
+Trans Amount = N/A
+
+
+ACCOUNT# = 1112
+TOTAL TRANSACTIONS = 5
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 15000.99
+TRANSACTION # 2:
+Transaction Type = Balance inquiry
+Trans Amount = N/A
+TRANSACTION # 3:
+Transaction Type = Closing the account
+Trans Amount = N/A
+TRANSACTION # 4:
+Transaction Type = Re-opening the account
+Trans Amount = N/A
+TRANSACTION # 5:
+Transaction Type = Deposit
+Trans Amount = 200.99
+
+
+ACCOUNT# = 1113
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 120000.79
+TRANSACTION # 2:
+Transaction Type = Balance inquiry
+Trans Amount = N/A
+TRANSACTION # 3:
+Transaction Type = Closing the account
+Trans Amount = N/A
+
+
+ACCOUNT# = 1114
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 234566.00
+TRANSACTION # 2:
+Transaction Type = Balance inquiry
+Trans Amount = N/A
+TRANSACTION # 3:
+Transaction Type = Closing the account
+Trans Amount = N/A
+
+
+ACCOUNT# = 1115
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 120000.00
+TRANSACTION # 2:
+Transaction Type = Acct_Info W/O Trans history
+Trans Amount = N/A
+TRANSACTION # 3:
+Transaction Type = Closing the account
+Trans Amount = N/A
+
+
+ACCOUNT# = 1116
+TOTAL TRANSACTIONS = 5
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 200000.00
+TRANSACTION # 2:
+Transaction Type = Balance inquiry
+Trans Amount = N/A
+TRANSACTION # 3:
+Transaction Type = Closing the account
+Trans Amount = N/A
+TRANSACTION # 4:
+Transaction Type = Re-opening the account
+Trans Amount = N/A
+TRANSACTION # 5:
+Transaction Type = Withdrawal
+Trans Amount = 344.00
+
+
+ACCOUNT# = 1117
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 17000.00
+TRANSACTION # 2:
+Transaction Type = Withdrawal
+Trans Amount = 58.89
+TRANSACTION # 3:
+Transaction Type = Acct_Info W/O Trans history
+Trans Amount = N/A
+
+
+ACCOUNT# = 1118
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 200.00
+TRANSACTION # 2:
+Transaction Type = Withdrawal
+Trans Amount = 120.99
+TRANSACTION # 3:
+Transaction Type = Acct_Info W Trans history
+Trans Amount = N/A
+
+
+ACCOUNT# = 1119
+TOTAL TRANSACTIONS = 3
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 560000.00
+TRANSACTION # 2:
+Transaction Type = Deposit
+Trans Amount = 3000.00
+TRANSACTION # 3:
+Transaction Type = Deposit
+Trans Amount = 2000.00
+
+
+ACCOUNT# = 1101
+TOTAL TRANSACTIONS = 1
+
+TRANSACTION # 1:
+Transaction Type = Opening of the account
+Trans Amount = 32222.00
+
+

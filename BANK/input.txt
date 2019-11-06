@@ -1,0 +1,13 @@
+Zaib Ali 348754323 1111 Checking 20000.89	Active
+Doe John 234567776 1112 Checking 15000.99 	Active
+Gold Jane 56434566 1113 Savings 120000.7888 	Active	
+Dillon Tom 347543322 1114 Checking 234566 Active
+Bush Jill 879131244 1115 Checking 120000 Active
+Monroe James 766126666 1116 Savings 200000 Active
+Nusrat Zafar 121212111	1117	C.D 17000 Active
+Noreen Moona 121212222 1118 Checking 200 Active
+Zafar Babad 176758494 1119 Savings 560000 Active
+Jaffa Nusa 176758432	1101 C.D 32222 Closed
+Gusa Phopo 176428494 1102 Savings 300 Active
+
+
